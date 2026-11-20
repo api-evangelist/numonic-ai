@@ -1,4 +1,4 @@
-# numonic-ai
+# Numonic Ltd.
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-numonic-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://numonic.ai/
+Numonic Ltd. provides AI asset management tools for ComfyUI and Midjourney, offering workflow capture, organization, search, and collaboration. Their platform records every AI-generated prompt, setting, and iteration, ensuring transparency, reproducibility, and compliance for creators and enterprises. Based in London, UK, Numonic aims to bring memory to imagination, enabling creators to manage and govern AI-generated content at scale.
+
+**Areas:** Asset Management · AI Generation · Creative Studios · Compliance · Workflow Capture · Midjourney · ComfyUI
+
+## Numonic Ltd. on APIs.io
+
+Everything profiled for Numonic Ltd. is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/numonic-ai/](https://apis.io/providers/numonic-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Numonic AI API](https://apis.io/apis/numonic-ai/numonic-ai-api-2/) — API for Numonic AI platform providing AI asset management and workflow tools. Documentation is at the Docs page.
+- [Numonic Ltd. API](https://apis.io/apis/numonic-ai/numonic-ai-api/) — Numonic Ltd. API as documented publicly: 25 operations. Contract generated from the documentation by API Evangelist (2026-11-19); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostApiV1AdminCrmDedupCandidatesCandidateRequest](https://apis.io/schemas/numonic-ai/numonic-ai-post-api-v1-admin-crm-dedup-candidates-candidate-request/)
+- [PostApiV1AdminCrmMergesRequest](https://apis.io/schemas/numonic-ai/numonic-ai-post-api-v1-admin-crm-merges-request/)
+- [PostApiV1AnnotationsRequest](https://apis.io/schemas/numonic-ai/numonic-ai-post-api-v1-annotations-request/)
+- [PostApiV1AssetsAssethNotesRequest](https://apis.io/schemas/numonic-ai/numonic-ai-post-api-v1-assets-asseth-notes-request/)
+- [PostApiV1PromptsRequest](https://apis.io/schemas/numonic-ai/numonic-ai-post-api-v1-prompts-request/)
+- [PostMcpRequest](https://apis.io/schemas/numonic-ai/numonic-ai-post-mcp-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Numonic Ai Context](https://apis.io/jsonld/numonic-ai/numonic-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Numonic Ltd. API Rules](https://apis.io/rules/numonic-ai/numonic-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Numonic Ltd. Authentication](https://apis.io/security/numonic-ai/numonic-ai-authentication/)
+- [Numonic Ltd. Domain Security](https://apis.io/security/numonic-ai/numonic-ai-domain-security/)
+- [Numonic Ltd. Trust Center](https://apis.io/security/numonic-ai/numonic-ai-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Numonic Ltd. Plans Pricing](https://apis.io/plans/numonic-ai/numonic-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://numonic.ai/)
+- [Documentation](https://www.numonic.ai/docs)
+- [Getting started](https://www.numonic.ai/docs/api/search-quickstart)
+- [API reference](https://www.numonic.ai/llms.txt)
+- [Pricing](https://www.numonic.ai/pricing)
+- [Changelog](https://www.numonic.ai/product/changelog)
+- [Blog](https://www.numonic.ai/blog)
+- [Compliance](https://www.numonic.ai/trust)
+- [Terms of service](https://www.numonic.ai/terms)
+- [Privacy policy](https://www.numonic.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 54.6** — strong · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 53.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 71.9 |
+
+**Agent readiness 20.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/numonic-ai/](https://apis.io/providers/numonic-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Numonic Ltd.: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/numonic-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
